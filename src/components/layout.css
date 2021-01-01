@@ -21,3 +21,43 @@ nav {
   align-items: center;
   padding: 1rem 0;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2c3b62;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-around;
+  width: 20rem;
+  margin: 0;
+  padding: 0;
+}
+
+.sm-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sm-links img {
+  display: block;
+  width: 1rem;
+  padding: 0.5rem;
+}
