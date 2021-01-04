@@ -1,0 +1,57 @@
+/* INTRO BLOCK */
+.intro-container {
+  font-family: "Amethysta";
+  font-size: 1.5rem;
+  border-bottom: 1px solid #2c3b62;
+  padding-bottom: 60px;
+}
+
+/* WORK BLOCK */
+.work-container {
+  padding-top: 60px;
+}
+
+.work-container > h2 {
+  font-family: "Roboto Mono", monospace;
+  padding-bottom: 50px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.projects > div {
+  border: 1px solid #2c3b62;
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+}
+
+/* BLOG BLOCK */
+.blog-container {
+  padding-top: 50px;
+}
+
+.blog-container > h2,
+p {
+  font-family: "Roboto Mono", monospace;
+}
+
+.blog-container > h2 {
+  padding-bottom: 50px;
+}
+
+.blog-post-list > li {
+  padding-bottom: 20px;
+}
+
+.blog-post-list > a {
+  font-family: "Amethysta";
+}
+
+.under-links > h3 {
+  text-decoration: underline;
+  font-size: 24px;
+  font-weight: normal;
+}
