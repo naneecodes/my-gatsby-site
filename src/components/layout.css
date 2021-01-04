@@ -1,3 +1,11 @@
+/* Remove padding and margin */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ccafc6;
   color: #2c3b62;
@@ -5,6 +13,11 @@ body {
   max-width: 1100px;
   font-family: "Roboto Mono", monospace;
   font-size: 14px;
+}
+
+header {
+  margin: 1.5rem 0;
+  padding: 1.5rem 1.5rem 1.5rem 0;
 }
 
 nav {
@@ -23,12 +36,18 @@ a {
   color: #2c3b62;
 }
 
+h1,
+h2 {
+  font-weight: normal;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   max-width: 1100px;
+  padding-bottom: 1.5rem;
 }
 
 .logo {
@@ -43,13 +62,15 @@ footer {
   padding: 0;
 }
 
+/* SOCIAL MEDIA LINKS */
 .sm-links {
   display: flex;
   justify-content: space-around;
+  width: 15rem;
 }
 
 .sm-links img {
-  display: block;
-  width: 1rem;
-  padding: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  width: 1.5rem;
 }
