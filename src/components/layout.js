@@ -23,6 +23,7 @@ const Layout = ({ children }) => (
       <ul className="navlinks">
         <li><Link to="/about">About</Link></li>
         <li><Link to="/work">Work</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
         <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
@@ -32,11 +33,11 @@ const Layout = ({ children }) => (
    <footer>
      <p>Made with &hearts; by Nanee </p>
     <ul className="sm-links">
-      <li><a href="#"><img src={Github} alt="github"/></a></li>
-      <li><a href="#"><img src={Instagram} alt="instagram"/></a></li>
+      <li><a href="https://github.com/nannabi" target="_blank" rel="noopener noreferrer"><img src={Github} alt="github"/></a></li>
+      <li><a href="https://www.instagram.com/nanee.codes/" target="_blank" rel="noopener noreferrer"><img src={Instagram} alt="instagram"/></a></li>
       <li><a href="#"><img src={RSS} alt="rss"/></a></li>
       <li><a href="#"><img src={Twitch} alt="twitch"/></a></li>
-      <li><a href="#"><img src={Twitter} alt="twitter"/></a></li>
+      <li><a href="https://twitter.com/naneecodes" target="_blank" rel="noopener noreferrer"><img src={Twitter} alt="twitter"/></a></li>
       <li><a href="#"><img src={YouTube} alt="youtube"/></a></li>
     </ul>
    </footer>
