@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import "normalize.css"
 import "./layout.css"
 import Logo from "../images/logo.png"
 import Github from "../images/sm-icons/github.svg"
