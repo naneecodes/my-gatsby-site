@@ -1,4 +1,4 @@
-/* INTRO BLOCK */
+/* INTRO CONTAINER */
 .intro-container {
   font-family: "Amethysta";
   font-size: 1.5rem;
@@ -6,7 +6,7 @@
   padding-bottom: 60px;
 }
 
-/* WORK BLOCK */
+/* WORK CONTAINER */
 .work-container {
   padding-top: 60px;
 }
@@ -28,7 +28,7 @@
   margin: 20px;
 }
 
-/* BLOG BLOCK */
+/* BLOG CONTAINER */
 .blog-container {
   padding-top: 50px;
 }
@@ -46,7 +46,7 @@ p {
   padding-bottom: 20px;
 }
 
-.blog-post-list > a {
+.blog-post-list a {
   font-family: "Amethysta";
 }
 
